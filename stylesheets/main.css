@@ -1,0 +1,93 @@
+body
+{
+	background: #fff;
+	font-family: 'Tahoma';
+	margin: 0;
+}
+.container
+{
+	width: 1050px;
+	
+	margin: 0 auto;
+	outline: 1px solid red;
+}
+
+.header
+{
+	font-family: Arial;
+	height: 114px;
+	outline: 1px solid red;
+}
+
+.header .logo
+{
+	
+	color: #404040;
+	font-size: 38px;
+	text-decoration: none;
+	margin: 48px 0 0 72px;
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	
+}
+ 
+.header .logo img
+{
+	margin: 0 17px 0 0;
+	vertical-align: middle;
+}
+
+.header .menu
+{
+	font-size: 0;
+	padding: 0;
+	margin: 54px 48px 0 0;
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+}
+
+.header .menu li
+{
+	color: #767676;
+	font-size: 18px;
+	line-height: 35px;
+	height: 35px;
+	margin: 0 35px 0 0;
+	display: inline-block;
+}
+
+.header .menu .active-item
+{
+	background: url(../images/design/menu-item-active.png);
+	width: 106px;
+	
+	margin-right: 12px;
+	text-align: center;
+}
+
+.header .menu li a
+{
+
+	color: #767676;
+	text-decoration: none;
+}
+
+.header .menu li a:hover
+{
+	color: #c60a18;
+}
+
+.banner
+{
+	background: url(../images/design/banner-bg.jpg);
+	padding: 339px 0 0 477px; 
+	height: 267px; 
+}
+
+.banner .love-text
+{
+	width: 481px;
+	
+}
